@@ -1,0 +1,487 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C40FD915175ECE8D00DB9BC5 /* Icon.icns in Resources */ = {isa = PBXBuildFile; fileRef = C40FD914175ECE8D00DB9BC5 /* Icon.icns */; };
+		C461E7B1175C8AC800FCD805 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C461E7B0175C8AC800FCD805 /* AVFoundation.framework */; };
+		C461E7B3175C8ACF00FCD805 /* CoreMedia.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C461E7B2175C8ACF00FCD805 /* CoreMedia.framework */; };
+		C461E801175CB35000FCD805 /* AppController.m in Sources */ = {isa = PBXBuildFile; fileRef = C461E800175CB35000FCD805 /* AppController.m */; };
+		C4E076CB17582D0A00DD75A2 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C4E076CA17582D0A00DD75A2 /* Cocoa.framework */; };
+		C4E076D517582D0A00DD75A2 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = C4E076D317582D0A00DD75A2 /* InfoPlist.strings */; };
+		C4E076D717582D0A00DD75A2 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C4E076D617582D0A00DD75A2 /* main.m */; };
+		C4E076DB17582D0A00DD75A2 /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = C4E076D917582D0A00DD75A2 /* Credits.rtf */; };
+		C4E076DE17582D0A00DD75A2 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C4E076DD17582D0A00DD75A2 /* AppDelegate.m */; };
+		C4E076E117582D0A00DD75A2 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = C4E076DF17582D0A00DD75A2 /* MainMenu.xib */; };
+		C4E076E917582D0A00DD75A2 /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C4E076E817582D0A00DD75A2 /* SenTestingKit.framework */; };
+		C4E076EA17582D0A00DD75A2 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C4E076CA17582D0A00DD75A2 /* Cocoa.framework */; };
+		C4E076F217582D0A00DD75A2 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = C4E076F017582D0A00DD75A2 /* InfoPlist.strings */; };
+		C4E076F517582D0A00DD75A2 /* SelfCapturingTests.m in Sources */ = {isa = PBXBuildFile; fileRef = C4E076F417582D0A00DD75A2 /* SelfCapturingTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C4E076EB17582D0A00DD75A2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C4E076BF17582D0A00DD75A2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C4E076C617582D0A00DD75A2;
+			remoteInfo = SelfCapturing;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		C40FD914175ECE8D00DB9BC5 /* Icon.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; path = Icon.icns; sourceTree = "<group>"; };
+		C461E7B0175C8AC800FCD805 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		C461E7B2175C8ACF00FCD805 /* CoreMedia.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMedia.framework; path = System/Library/Frameworks/CoreMedia.framework; sourceTree = SDKROOT; };
+		C461E7FF175CB35000FCD805 /* AppController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppController.h; sourceTree = "<group>"; };
+		C461E800175CB35000FCD805 /* AppController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppController.m; sourceTree = "<group>"; };
+		C4E076C717582D0A00DD75A2 /* SelfCapturing.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SelfCapturing.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C4E076CA17582D0A00DD75A2 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		C4E076CD17582D0A00DD75A2 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		C4E076CE17582D0A00DD75A2 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		C4E076CF17582D0A00DD75A2 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		C4E076D217582D0A00DD75A2 /* SelfCapturing-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "SelfCapturing-Info.plist"; sourceTree = "<group>"; };
+		C4E076D417582D0A00DD75A2 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		C4E076D617582D0A00DD75A2 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		C4E076D817582D0A00DD75A2 /* SelfCapturing-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "SelfCapturing-Prefix.pch"; sourceTree = "<group>"; };
+		C4E076DA17582D0A00DD75A2 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
+		C4E076DC17582D0A00DD75A2 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		C4E076DD17582D0A00DD75A2 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		C4E076E017582D0A00DD75A2 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		C4E076E717582D0A00DD75A2 /* SelfCapturingTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SelfCapturingTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C4E076E817582D0A00DD75A2 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		C4E076EF17582D0A00DD75A2 /* SelfCapturingTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "SelfCapturingTests-Info.plist"; sourceTree = "<group>"; };
+		C4E076F117582D0A00DD75A2 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		C4E076F317582D0A00DD75A2 /* SelfCapturingTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SelfCapturingTests.h; sourceTree = "<group>"; };
+		C4E076F417582D0A00DD75A2 /* SelfCapturingTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SelfCapturingTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C4E076C417582D0A00DD75A2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C461E7B3175C8ACF00FCD805 /* CoreMedia.framework in Frameworks */,
+				C461E7B1175C8AC800FCD805 /* AVFoundation.framework in Frameworks */,
+				C4E076CB17582D0A00DD75A2 /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C4E076E317582D0A00DD75A2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C4E076E917582D0A00DD75A2 /* SenTestingKit.framework in Frameworks */,
+				C4E076EA17582D0A00DD75A2 /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C4E076BE17582D0A00DD75A2 = {
+			isa = PBXGroup;
+			children = (
+				C40FD914175ECE8D00DB9BC5 /* Icon.icns */,
+				C4E076D017582D0A00DD75A2 /* SelfCapturing */,
+				C4E076ED17582D0A00DD75A2 /* SelfCapturingTests */,
+				C4E076C917582D0A00DD75A2 /* Frameworks */,
+				C4E076C817582D0A00DD75A2 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C4E076C817582D0A00DD75A2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C4E076C717582D0A00DD75A2 /* SelfCapturing.app */,
+				C4E076E717582D0A00DD75A2 /* SelfCapturingTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C4E076C917582D0A00DD75A2 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C461E7B2175C8ACF00FCD805 /* CoreMedia.framework */,
+				C461E7B0175C8AC800FCD805 /* AVFoundation.framework */,
+				C4E076CA17582D0A00DD75A2 /* Cocoa.framework */,
+				C4E076E817582D0A00DD75A2 /* SenTestingKit.framework */,
+				C4E076CC17582D0A00DD75A2 /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C4E076CC17582D0A00DD75A2 /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C4E076CD17582D0A00DD75A2 /* AppKit.framework */,
+				C4E076CE17582D0A00DD75A2 /* CoreData.framework */,
+				C4E076CF17582D0A00DD75A2 /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		C4E076D017582D0A00DD75A2 /* SelfCapturing */ = {
+			isa = PBXGroup;
+			children = (
+				C4E076DC17582D0A00DD75A2 /* AppDelegate.h */,
+				C4E076DD17582D0A00DD75A2 /* AppDelegate.m */,
+				C461E7FF175CB35000FCD805 /* AppController.h */,
+				C461E800175CB35000FCD805 /* AppController.m */,
+				C4E076DF17582D0A00DD75A2 /* MainMenu.xib */,
+				C4E076D117582D0A00DD75A2 /* Supporting Files */,
+			);
+			path = SelfCapturing;
+			sourceTree = "<group>";
+		};
+		C4E076D117582D0A00DD75A2 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				C4E076D217582D0A00DD75A2 /* SelfCapturing-Info.plist */,
+				C4E076D317582D0A00DD75A2 /* InfoPlist.strings */,
+				C4E076D617582D0A00DD75A2 /* main.m */,
+				C4E076D817582D0A00DD75A2 /* SelfCapturing-Prefix.pch */,
+				C4E076D917582D0A00DD75A2 /* Credits.rtf */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		C4E076ED17582D0A00DD75A2 /* SelfCapturingTests */ = {
+			isa = PBXGroup;
+			children = (
+				C4E076F317582D0A00DD75A2 /* SelfCapturingTests.h */,
+				C4E076F417582D0A00DD75A2 /* SelfCapturingTests.m */,
+				C4E076EE17582D0A00DD75A2 /* Supporting Files */,
+			);
+			path = SelfCapturingTests;
+			sourceTree = "<group>";
+		};
+		C4E076EE17582D0A00DD75A2 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				C4E076EF17582D0A00DD75A2 /* SelfCapturingTests-Info.plist */,
+				C4E076F017582D0A00DD75A2 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C4E076C617582D0A00DD75A2 /* SelfCapturing */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C4E076F817582D0A00DD75A2 /* Build configuration list for PBXNativeTarget "SelfCapturing" */;
+			buildPhases = (
+				C4E076C317582D0A00DD75A2 /* Sources */,
+				C4E076C417582D0A00DD75A2 /* Frameworks */,
+				C4E076C517582D0A00DD75A2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SelfCapturing;
+			productName = SelfCapturing;
+			productReference = C4E076C717582D0A00DD75A2 /* SelfCapturing.app */;
+			productType = "com.apple.product-type.application";
+		};
+		C4E076E617582D0A00DD75A2 /* SelfCapturingTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C4E076FB17582D0A00DD75A2 /* Build configuration list for PBXNativeTarget "SelfCapturingTests" */;
+			buildPhases = (
+				C4E076E217582D0A00DD75A2 /* Sources */,
+				C4E076E317582D0A00DD75A2 /* Frameworks */,
+				C4E076E417582D0A00DD75A2 /* Resources */,
+				C4E076E517582D0A00DD75A2 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C4E076EC17582D0A00DD75A2 /* PBXTargetDependency */,
+			);
+			name = SelfCapturingTests;
+			productName = SelfCapturingTests;
+			productReference = C4E076E717582D0A00DD75A2 /* SelfCapturingTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C4E076BF17582D0A00DD75A2 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = rocry;
+			};
+			buildConfigurationList = C4E076C217582D0A00DD75A2 /* Build configuration list for PBXProject "SelfCapturing" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = C4E076BE17582D0A00DD75A2;
+			productRefGroup = C4E076C817582D0A00DD75A2 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C4E076C617582D0A00DD75A2 /* SelfCapturing */,
+				C4E076E617582D0A00DD75A2 /* SelfCapturingTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C4E076C517582D0A00DD75A2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C4E076D517582D0A00DD75A2 /* InfoPlist.strings in Resources */,
+				C4E076DB17582D0A00DD75A2 /* Credits.rtf in Resources */,
+				C4E076E117582D0A00DD75A2 /* MainMenu.xib in Resources */,
+				C40FD915175ECE8D00DB9BC5 /* Icon.icns in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C4E076E417582D0A00DD75A2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C4E076F217582D0A00DD75A2 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		C4E076E517582D0A00DD75A2 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C4E076C317582D0A00DD75A2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C4E076D717582D0A00DD75A2 /* main.m in Sources */,
+				C4E076DE17582D0A00DD75A2 /* AppDelegate.m in Sources */,
+				C461E801175CB35000FCD805 /* AppController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C4E076E217582D0A00DD75A2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C4E076F517582D0A00DD75A2 /* SelfCapturingTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C4E076EC17582D0A00DD75A2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C4E076C617582D0A00DD75A2 /* SelfCapturing */;
+			targetProxy = C4E076EB17582D0A00DD75A2 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		C4E076D317582D0A00DD75A2 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C4E076D417582D0A00DD75A2 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		C4E076D917582D0A00DD75A2 /* Credits.rtf */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C4E076DA17582D0A00DD75A2 /* en */,
+			);
+			name = Credits.rtf;
+			sourceTree = "<group>";
+		};
+		C4E076DF17582D0A00DD75A2 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C4E076E017582D0A00DD75A2 /* en */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+		C4E076F017582D0A00DD75A2 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C4E076F117582D0A00DD75A2 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C4E076F617582D0A00DD75A2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		C4E076F717582D0A00DD75A2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		C4E076F917582D0A00DD75A2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SelfCapturing/SelfCapturing-Prefix.pch";
+				INFOPLIST_FILE = "SelfCapturing/SelfCapturing-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		C4E076FA17582D0A00DD75A2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SelfCapturing/SelfCapturing-Prefix.pch";
+				INFOPLIST_FILE = "SelfCapturing/SelfCapturing-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		C4E076FC17582D0A00DD75A2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/SelfCapturing.app/Contents/MacOS/SelfCapturing";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = "\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SelfCapturing/SelfCapturing-Prefix.pch";
+				INFOPLIST_FILE = "SelfCapturingTests/SelfCapturingTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		C4E076FD17582D0A00DD75A2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/SelfCapturing.app/Contents/MacOS/SelfCapturing";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = "\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SelfCapturing/SelfCapturing-Prefix.pch";
+				INFOPLIST_FILE = "SelfCapturingTests/SelfCapturingTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C4E076C217582D0A00DD75A2 /* Build configuration list for PBXProject "SelfCapturing" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C4E076F617582D0A00DD75A2 /* Debug */,
+				C4E076F717582D0A00DD75A2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C4E076F817582D0A00DD75A2 /* Build configuration list for PBXNativeTarget "SelfCapturing" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C4E076F917582D0A00DD75A2 /* Debug */,
+				C4E076FA17582D0A00DD75A2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C4E076FB17582D0A00DD75A2 /* Build configuration list for PBXNativeTarget "SelfCapturingTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C4E076FC17582D0A00DD75A2 /* Debug */,
+				C4E076FD17582D0A00DD75A2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C4E076BF17582D0A00DD75A2 /* Project object */;
+}
